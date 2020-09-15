@@ -5,7 +5,7 @@ export class Student extends Person {
     this.className = className;
   }
   study = () => {
-    console.log(`${this.name} is moving`)
+    this.move()
     console.log(`${this.name} is studying in ${this.className}`)
   }
 }
